@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="msd23_Nikparsa_Paria" />
+        <module name="msd23_konfig_team_B" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Exercise_7" target="21" />
-    </bytecodeTargetLevel>
   </component>
 </project>
