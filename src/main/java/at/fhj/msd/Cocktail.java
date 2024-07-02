@@ -8,7 +8,7 @@ public class Cocktail extends Drink {
     private List<Liquid> ingredients;
 
     public Cocktail(String name, List<Liquid> ingredients) {
-        super(name); // Aufruf des Konstruktors der übergeordneten Klasse Drink
+        super(name); 
         this.ingredients = ingredients;
     }
 
@@ -27,17 +27,17 @@ public class Cocktail extends Drink {
         for (Liquid liquid : ingredients) {
             totalAlcoholPercent += liquid.getAlcoholPercent();
         }
-        return totalAlcoholPercent / ingredients.size(); // Durchschnittlicher Alkoholgehalt aller Zutaten
+        return totalAlcoholPercent / ingredients.size();
     }
 
     @Override
     public boolean isAlcoholic() {
         for (Liquid liquid : ingredients) {
             if (liquid.getAlcoholPercent() > 0) {
-                return true; // True zurückgeben, wenn eine Zutat alkoholisch ist
+                return true;
             }
         }
-        return false; // False zurückgeben, wenn keine Zutat alkoholisch ist
+        return false;
     }
 
     // Getter und Setter Methoden
