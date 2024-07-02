@@ -1,13 +1,17 @@
 package at.fhj.msd;
 
 import java.util.LinkedList;
-<<<<<<< HEAD
 
 import java.util.NoSuchElementException;
 
 import java.util.Queue;
 
 public class DrinkQueue {
+
+    private Queue<Drink> drinks;
+    public DrinkQueue() {
+        drinks = new LinkedList<>();
+    }
 
 
     //Returns the first Drink object in the queue without removing it
@@ -33,12 +37,7 @@ public class DrinkQueue {
         return drinks.isEmpty();
 
     }
-=======
-import java.util.NoSuchElementException;
-import java.util.Queue;
 
-public class DrinkQueue {
-<<<<<<< HEAD
     //Adds a Drink object to the queue
 
     public boolean offer(Drink drink) {
@@ -54,11 +53,7 @@ public class DrinkQueue {
         return drinks.poll();
 
     }
-=======
-    private Queue<Drink> drinks;
-    public DrinkQueue() {
-        drinks = new LinkedList<>();
-    }
+
     /**
      * Removes and returns the first Drink object in the queue.
      * @return the Drink object removed
@@ -77,5 +72,5 @@ public class DrinkQueue {
         return drinks.element();
     }
 
->>>>>>> d2eafda437f900f5125ed109a597e182320eaf9e
+
 }
