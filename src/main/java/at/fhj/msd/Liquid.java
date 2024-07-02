@@ -1,13 +1,13 @@
 package at.fhj.msd;
 // put into drinkss
 public class Liquid {
-    
+
     private String name;
     // volume in l
-     
+
     private double volume;
 
-    // alcohohl percent (eg 42 ) 
+    // alcohohl percent (eg 42 )
 
     private double alcoholPercent;
 
@@ -36,7 +36,7 @@ public class Liquid {
     public double getAlcoholPercent() {
         return alcoholPercent;
     }
- 
+
     public void setAlcoholPercent(double alcoholPercent) {
         this.alcoholPercent = alcoholPercent;
     }
