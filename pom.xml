@@ -2,10 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>msd23_Nikparsa_Paria</artifactId>
+    <artifactId>msd23_konfig_team_B</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -15,7 +16,7 @@
     </properties>
 
     <dependencies>
-        <!-- Dependencies needed for your project -->
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -49,9 +50,10 @@
     <distributionManagement>
         <site>
             <id>example-site</id>
-            <url>scm:git:https://github.com/your-username/your-repo</url>
+
+            <url>scm:git:https://github.com/annawittalex/msd23_konfig_team_B.git</url>
         </site>
-        <!-- Add other distribution management configurations as needed -->
+
     </distributionManagement>
 
     <build>
@@ -83,4 +85,5 @@
 
         </plugins>
     </build>
+
 </project>
