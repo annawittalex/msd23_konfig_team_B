@@ -1,3 +1,4 @@
+
 # msd23_konfig_team_B
 Exercise 7: Teamwork
 
@@ -36,3 +37,5 @@ Ivana Ferlin:
 Branch javadoc
 Branch tests
 Branch maven_site
+
+
