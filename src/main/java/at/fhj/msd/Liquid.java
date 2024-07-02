@@ -1,16 +1,24 @@
 package at.fhj.msd;
-// put into drinkss
+
+/**
+ * Represents a liquid with a name, volume in liters, and alcohol percentage.
+ */
 public class Liquid {
 
     private String name;
-    // volume in l
 
     private double volume;
 
-    // alcohohl percent (eg 42 )
-
     private double alcoholPercent;
 
+
+    /**
+     * Constructs a new Liquid object with the specified name, volume, and alcohol percentage.
+     *
+     * @param name           the name of the liquid
+     * @param volume         the volume of the liquid in liters
+     * @param alcoholPercent the alcohol percentage of the liquid
+     */
     public Liquid(String name, double volume, double alcoholPercent) {
         this.name = name;
         this.volume = volume;
