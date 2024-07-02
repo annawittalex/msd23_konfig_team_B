@@ -38,6 +38,23 @@ import java.util.NoSuchElementException;
 import java.util.Queue;
 
 public class DrinkQueue {
+<<<<<<< HEAD
+    //Adds a Drink object to the queue
+
+    public boolean offer(Drink drink) {
+
+        return drinks.offer(drink);
+
+    }
+
+    //Removes and returns the first Drink object in the queue
+
+    public Drink poll() {
+
+        return drinks.poll();
+
+    }
+=======
     private Queue<Drink> drinks;
     public DrinkQueue() {
         drinks = new LinkedList<>();
