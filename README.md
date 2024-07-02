@@ -19,6 +19,9 @@ This project provides a simple framework for managing drinks and liquids. It inc
 - `IQueue.java`: Interface defining basic queue operations for strings.
 - `Main.java`
 - `StringQueue.java`
+- `Cocktail.java`
+- `DoubleQueue.java` - a class that allows double values ​​to be managed in a queue
+- `DrinkQueue.java` - a class that allows Drinks ​​to be managed in a queue
 
 
 Distribution of tasks:
