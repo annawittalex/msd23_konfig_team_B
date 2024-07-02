@@ -1,10 +1,10 @@
 # msd23_konfig_team_B
-Exercise 7: Teamwork
+**Exercise 7: Teamwork**
 
 Team: 
-Ivana Ferlin
-Paria Nikparsa
-Oleksandra Annawitt
+* Ivana Ferlin
+* Paria Nikparsa
+* Oleksandra Annawitt
 
 
 # Drink Management System
@@ -24,15 +24,16 @@ This project provides a simple framework for managing drinks and liquids. It inc
 Distribution of tasks:
 
 Paria Nikparsa:
-Branch maven_detail
-Branch bug_hunt
-Branch drink
+- [x] Branch maven_detail
+- [x] Branch bug_hunt
+- [x] Branch drink
+
 
 Oleksandra Annawitt
-Branch queue
-Branch double_queue (nur für 3er Gruppen)
+- [x] Branch queue
+- [x] Branch double_queue (nur für 3er Gruppen)
 
 Ivana Ferlin:
-Branch javadoc
-Branch tests
-Branch maven_site
+- [x] Branch javadoc
+- [x] Branch tests
+- [x] Branch maven_site
