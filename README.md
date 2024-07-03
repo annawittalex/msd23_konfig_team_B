@@ -34,6 +34,8 @@ Paria Nikparsa:
 
 
 Oleksandra Annawitt
+- [x] Branch maven
+- [x] Branch  readme
 - [x] Branch queue
 - [x] Branch double_queue (nur für 3er Gruppen)
 
