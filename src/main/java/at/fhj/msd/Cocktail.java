@@ -9,7 +9,6 @@ import java.util.List;
  */
 public class Cocktail extends Drink {
 
-    private String name;
     private List<Liquid> ingredients;
 
     /**
