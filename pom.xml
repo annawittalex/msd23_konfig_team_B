@@ -5,17 +5,29 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+
+    <groupId>at.fhj.msd</groupId>
+    <!--<artifactId>Drinks</artifactId>-->
+    <version>1.0</version>
+    <url>https://github.com/annawittalex/msd23_konfig_team_B.git</url>
+
+
+
+   <!-- <groupId>org.example</groupId>-->
     <artifactId>msd23_konfig_team_B</artifactId>
-    <version>1.0-SNAPSHOT</version>
+   <!-- <version>1.0-SNAPSHOT</version>-->
 
     <developers>
         <developer>
             <name>Ivana Ferlin</name>
             <email>ivana.ferlin@edu.fh-joanneum.at</email>
-
         </developer>
-
+        <developer>
+            <name>Oleksandra Annawitt</name>
+        </developer>
+        <developer>
+            <name>Paria Nikparsa</name>
+        </developer>
     </developers>
 
 

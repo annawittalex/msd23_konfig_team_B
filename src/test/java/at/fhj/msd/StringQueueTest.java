@@ -12,6 +12,7 @@ public class StringQueueTest {
 
     @Before
     public void setUp() {
+
         queue = new StringQueue(5);
     }
 

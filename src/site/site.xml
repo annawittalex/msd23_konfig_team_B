@@ -1,13 +1,15 @@
-<project name="Drinks Documentation Demo">
+<project name="Drinks Documentation">
     <publishDate position="right"/>
     <version position="left"/>
     <body>
         <menu name="Overview">
             <item name="Introduction" href="index.html"/>
-            <item name="Test" href="test.html"/>
-            <item name="Drinks" href="drinks.html"/>
-            <item name="Member 1" href="member1.html"/>
+            <item name="Projektberichte" href="project-reports.html"/>
+            <item name="Javadoc" href="apidocs/index.html"/>
+            <item name="JaCoCo" href="jacoco/index.html"/>
+            <item name="Member 1" href="ivana.html"/>
         </menu>
         <menu ref="reports"/>
     </body>
 </project>
+
