@@ -8,15 +8,34 @@ import java.util.NoSuchElementException;
 // there are different Bugs, wrong implementation, typos, ...
 // write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
 
+
+
+/**
+ * Implementation of a queue data structure using strings.
+ * Implements the IQueue interface.
+ */
 public class StringQueue implements IQueue {
 
   private List<String> elements = new ArrayList<String>();
   private int maxSize = 5;
 
+
+  /**
+   * Constructs a StringQueue object with the specified maximum size.
+   *
+   * @param maxsize the maximum size limit of the queue
+   */
   public StringQueue(int maxsize) {
     maxSize = maxSize;
   }
 
+
+  /**
+   * Adds a string element to the end of the queue if space is available.
+   *
+   * @param obj the string element to be added to the queue
+   * @return true if the element was successfully added, false if the queue is full
+   */
   @Override
   public boolean offer(String obj) {
     if (elements.size() != maxSize)
@@ -27,6 +46,11 @@ public class StringQueue implements IQueue {
     return true;
   }
 
+  /**
+   * Retrieves and removes the first element of the queue.
+   *
+   * @return the first element of the queue, or null if the queue is empty
+   */
   @Override
   public String poll() {
     String element = peek();
@@ -38,6 +62,12 @@ public class StringQueue implements IQueue {
     return element;
   }
 
+  /**
+   * Retrieves and removes the first element of the queue.
+   *
+   * @return the first element of the queue
+   * @throws NoSuchElementException if the queue is empty
+   */
   @Override
   public String remove() {
     String element = poll();
@@ -48,6 +78,11 @@ public class StringQueue implements IQueue {
     return element;
   }
 
+  /**
+   * Retrieves, but does not remove, the first element of the queue.
+   *
+   * @return the first element of the queue, or null if the queue is empty
+   */
   @Override
   public String peek() {
     String element;
@@ -59,6 +94,12 @@ public class StringQueue implements IQueue {
     return element;
   }
 
+  /**
+   * Retrieves, but does not remove, the first element of the queue.
+   *
+   * @return the first element of the queue
+   * @throws NoSuchElementException if the queue is empty
+   */
   @Override
   public String element() {
     String element = peek();
