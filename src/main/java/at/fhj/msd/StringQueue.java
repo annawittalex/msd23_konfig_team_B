@@ -16,16 +16,16 @@ import java.util.NoSuchElementException;
  */
 public class StringQueue implements IQueue {
 
-  private List<String> elements = new ArrayList<String>();
+  public List<String> elements = new ArrayList<String>();
   private int maxSize = 5;
 
 
   /**
    * Constructs a StringQueue object with the specified maximum size.
    *
-   * @param maxsize the maximum size limit of the queue
+   * @param maxSize the maximum size limit of the queue
    */
-  public StringQueue(int maxsize) {
+  public StringQueue(int maxSize) {
     maxSize = maxSize;
   }
 

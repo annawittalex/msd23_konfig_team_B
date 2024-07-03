@@ -6,6 +6,10 @@ import java.util.NoSuchElementException;
 
 import java.util.Queue;
 
+/**
+ * Represents a queue of Drink objects.
+ */
+
 public class DrinkQueue {
 
     private Queue<Drink> drinks;
@@ -14,40 +18,58 @@ public class DrinkQueue {
     }
 
 
-    //Returns the first Drink object in the queue without removing it
-
+    /**
+     * Retrieves, but does not remove, the first Drink object in the queue.
+     *
+     * @return the first Drink object in the queue, or null if the queue is empty
+     */
     public Drink peek() {
 
         return drinks.peek();
 
     }
 
-    // Returns the number of drinks in the queue
 
+    /**
+     * Returns the number of Drink objects in the queue.
+     *
+     * @return the number of Drink objects in the queue
+     */
     public int size() {
 
         return drinks.size();
 
     }
 
-    //Checks if the queue is empty
-
+    /**
+     * Checks if the queue is empty.
+     *
+     * @return true if the queue contains no Drink objects, otherwise false
+     */
     public boolean isEmpty() {
 
         return drinks.isEmpty();
 
     }
 
-    //Adds a Drink object to the queue
 
+    /**
+     * Adds a Drink object to the end of the queue.
+     *
+     * @param drink the Drink object to be added
+     * @return true if the Drink object was successfully added to the queue
+     */
     public boolean offer(Drink drink) {
 
         return drinks.offer(drink);
 
     }
 
-    //Removes and returns the first Drink object in the queue
-
+    /**
+     * Retrieves and removes the first Drink object from the queue.
+     *
+     * @return the first Drink object from the queue, or null if the queue is empty
+     */
     public Drink poll() {
 
         return drinks.poll();

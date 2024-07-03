@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 import static org.junit.Assert.*;
+
 public class CocktailTest {
     private Cocktail cocktail;
     private List<Liquid> ingredients;
